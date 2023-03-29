@@ -1,0 +1,21 @@
+{
+    "name": "sf/auth",
+    "description": "hometask",
+    "type": "project",
+    "license": "BSD",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "szhuravlev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "gabordemooij/redbean" :"dev-master",
+        "monolog/monolog": "3.x-dev"
+    }
+}
